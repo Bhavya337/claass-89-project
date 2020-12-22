@@ -16,7 +16,7 @@
  function send(){
    var number1=document.getElementById("number1").value;
    var number2=document.getElementById("number2").value;
-   answer= number1* number2;
+   answer= paresInt(number1)* paresInt(number2);
  var question_word="<h4 id= 'word_display'>Q. "+ number1+"X"+ number2 + "</h4>";
  var input_box="<br> answer: <input type='text' id='input_check_box'>" ;
 check_button="<br><br> <button class='btn btn-info' onclick='check()'>check</button>";
